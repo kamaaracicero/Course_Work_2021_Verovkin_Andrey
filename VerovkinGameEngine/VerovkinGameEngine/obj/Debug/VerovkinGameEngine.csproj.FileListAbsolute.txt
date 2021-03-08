@@ -1,0 +1,13 @@
+D:\Git Projects\Course_Work_2021_Spring\VerovkinGameEngine\VerovkinGameEngine\bin\Debug\VerovkinGameEngine.exe.config
+D:\Git Projects\Course_Work_2021_Spring\VerovkinGameEngine\VerovkinGameEngine\bin\Debug\VerovkinGameEngine.exe
+D:\Git Projects\Course_Work_2021_Spring\VerovkinGameEngine\VerovkinGameEngine\bin\Debug\VerovkinGameEngine.pdb
+D:\Git Projects\Course_Work_2021_Spring\VerovkinGameEngine\VerovkinGameEngine\bin\Debug\OpenTK.dll
+D:\Git Projects\Course_Work_2021_Spring\VerovkinGameEngine\VerovkinGameEngine\bin\Debug\OpenTK.pdb
+D:\Git Projects\Course_Work_2021_Spring\VerovkinGameEngine\VerovkinGameEngine\bin\Debug\OpenTK.xml
+D:\Git Projects\Course_Work_2021_Spring\VerovkinGameEngine\VerovkinGameEngine\obj\Debug\VerovkinGameEngine.csprojAssemblyReference.cache
+D:\Git Projects\Course_Work_2021_Spring\VerovkinGameEngine\VerovkinGameEngine\obj\Debug\VerovkinGameEngine.Properties.Resources.resources
+D:\Git Projects\Course_Work_2021_Spring\VerovkinGameEngine\VerovkinGameEngine\obj\Debug\VerovkinGameEngine.csproj.GenerateResource.cache
+D:\Git Projects\Course_Work_2021_Spring\VerovkinGameEngine\VerovkinGameEngine\obj\Debug\VerovkinGameEngine.csproj.CoreCompileInputs.cache
+D:\Git Projects\Course_Work_2021_Spring\VerovkinGameEngine\VerovkinGameEngine\obj\Debug\VerovkinGameEngine.csproj.CopyComplete
+D:\Git Projects\Course_Work_2021_Spring\VerovkinGameEngine\VerovkinGameEngine\obj\Debug\VerovkinGameEngine.exe
+D:\Git Projects\Course_Work_2021_Spring\VerovkinGameEngine\VerovkinGameEngine\obj\Debug\VerovkinGameEngine.pdb
