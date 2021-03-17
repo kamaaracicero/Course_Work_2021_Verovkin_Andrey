@@ -79,5 +79,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TreasureGameLib\TreasureGameLib.csproj">
+      <Project>{16ee968b-2ff9-4cb8-936a-eeafa4031ae0}</Project>
+      <Name>TreasureGameLib</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

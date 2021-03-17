@@ -1,0 +1,16 @@
+D:\Git Projects\Course_Work_2021_Spring\VerovkinGameEngine\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.exe
+D:\Git Projects\Course_Work_2021_Spring\VerovkinGameEngine\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.deps.json
+D:\Git Projects\Course_Work_2021_Spring\VerovkinGameEngine\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.runtimeconfig.json
+D:\Git Projects\Course_Work_2021_Spring\VerovkinGameEngine\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.runtimeconfig.dev.json
+D:\Git Projects\Course_Work_2021_Spring\VerovkinGameEngine\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.dll
+D:\Git Projects\Course_Work_2021_Spring\VerovkinGameEngine\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.pdb
+D:\Git Projects\Course_Work_2021_Spring\VerovkinGameEngine\ConsoleApp1\bin\Debug\netcoreapp3.1\TreasureGameLib.dll
+D:\Git Projects\Course_Work_2021_Spring\VerovkinGameEngine\ConsoleApp1\bin\Debug\netcoreapp3.1\TreasureGameLib.pdb
+D:\Git Projects\Course_Work_2021_Spring\VerovkinGameEngine\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.csprojAssemblyReference.cache
+D:\Git Projects\Course_Work_2021_Spring\VerovkinGameEngine\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.AssemblyInfoInputs.cache
+D:\Git Projects\Course_Work_2021_Spring\VerovkinGameEngine\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.AssemblyInfo.cs
+D:\Git Projects\Course_Work_2021_Spring\VerovkinGameEngine\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.csproj.CoreCompileInputs.cache
+D:\Git Projects\Course_Work_2021_Spring\VerovkinGameEngine\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.csproj.CopyComplete
+D:\Git Projects\Course_Work_2021_Spring\VerovkinGameEngine\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.dll
+D:\Git Projects\Course_Work_2021_Spring\VerovkinGameEngine\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.pdb
+D:\Git Projects\Course_Work_2021_Spring\VerovkinGameEngine\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.genruntimeconfig.cache

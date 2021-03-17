@@ -11,3 +11,5 @@ D:\Git Projects\Course_Work_2021_Spring\VerovkinGameEngine\VerovkinGameEngine\ob
 D:\Git Projects\Course_Work_2021_Spring\VerovkinGameEngine\VerovkinGameEngine\obj\Debug\VerovkinGameEngine.csproj.CopyComplete
 D:\Git Projects\Course_Work_2021_Spring\VerovkinGameEngine\VerovkinGameEngine\obj\Debug\VerovkinGameEngine.exe
 D:\Git Projects\Course_Work_2021_Spring\VerovkinGameEngine\VerovkinGameEngine\obj\Debug\VerovkinGameEngine.pdb
+D:\Git Projects\Course_Work_2021_Spring\VerovkinGameEngine\VerovkinGameEngine\bin\Debug\TreasureGameLib.dll
+D:\Git Projects\Course_Work_2021_Spring\VerovkinGameEngine\VerovkinGameEngine\bin\Debug\TreasureGameLib.pdb

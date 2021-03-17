@@ -1,0 +1,6 @@
+D:\Git Projects\Course_Work_2021_Spring\VerovkinGameEngine\TreasureGameLib\bin\Debug\TreasureGameLib.dll
+D:\Git Projects\Course_Work_2021_Spring\VerovkinGameEngine\TreasureGameLib\bin\Debug\TreasureGameLib.pdb
+D:\Git Projects\Course_Work_2021_Spring\VerovkinGameEngine\TreasureGameLib\obj\Debug\TreasureGameLib.csprojAssemblyReference.cache
+D:\Git Projects\Course_Work_2021_Spring\VerovkinGameEngine\TreasureGameLib\obj\Debug\TreasureGameLib.csproj.CoreCompileInputs.cache
+D:\Git Projects\Course_Work_2021_Spring\VerovkinGameEngine\TreasureGameLib\obj\Debug\TreasureGameLib.dll
+D:\Git Projects\Course_Work_2021_Spring\VerovkinGameEngine\TreasureGameLib\obj\Debug\TreasureGameLib.pdb

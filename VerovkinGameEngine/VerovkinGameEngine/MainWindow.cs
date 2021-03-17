@@ -2,6 +2,8 @@
 using OpenTK.Graphics;
 using OpenTK.Input;
 using OpenTK.Graphics.OpenGL4;
+using TreasureGameLib.Environment.GameMap;
+using TreasureGameLib.Environment.Walls;
 
 namespace VerovkinGameEngine
 {
@@ -12,6 +14,16 @@ namespace VerovkinGameEngine
             -0.5f, -0.5f, 0.0f, // Bottom-left vertex
              0.5f, -0.5f, 0.0f, // Bottom-right vertex
              0.0f,  0.5f, 0.0f  // Top vertex
+        };
+
+        private float[] _playerVertices =
+        {
+            -0.5f, -0.5f, 0.0f,
+            -0.5f,  0.5f, 0.0f,
+             0.5f,  0.5f, 0.0f,
+             0.5f, 0.5f, 0.0f,
+             0.5f, -0.5f, 0.0f,
+             -0.5f, -0.5f, 0.0f
         };
 
         private int _vertexBufferObject;
@@ -28,7 +40,26 @@ namespace VerovkinGameEngine
             Unload += MainWindow_Unload;
             Resize += MainWindow_Resize;
         }
+        private void MainWindow_Load(object sender, System.EventArgs e)
+        {
+            GL.ClearColor(0.2f, 0.3f, 0.3f, 1.0f);
+            _vertexBufferObject = GL.GenBuffer();
+            GL.BindBuffer(BufferTarget.ArrayBuffer, _vertexBufferObject);
+            GL.BufferData(BufferTarget.ArrayBuffer, _playerVertices.Length * sizeof(float), _playerVertices, BufferUsageHint.DynamicDraw);
 
+            _vertexArrayObject = GL.GenVertexArray();
+            GL.BindVertexArray(_vertexArrayObject);
+
+            GL.VertexAttribPointer(0, 3, VertexAttribPointerType.Float, false, 0, 0);
+
+            GL.EnableVertexAttribArray(0);
+
+            _shader = new Shader("shader.vert", "shader.frag");
+
+            _shader.Use();
+        }
+
+        /*
         private void MainWindow_Load(object sender, System.EventArgs e)
         {
             GL.ClearColor(0.2f, 0.3f, 0.3f, 1.0f);
@@ -49,18 +80,32 @@ namespace VerovkinGameEngine
 
             _shader.Use();
         }
+        */
 
         private void MainWindow_KeyDown(object sender, KeyboardKeyEventArgs e)
         {
             if (e.Key == Key.Escape) Exit();
+            else if (e.Key == Key.W)
+            {
+                MatrPlus(0.1f);
+                GL.BufferData(BufferTarget.ArrayBuffer, _playerVertices.Length * sizeof(float), _playerVertices, BufferUsageHint.DynamicDraw);
+            }
+        }
+
+        private void MatrPlus(float number)
+        {
+            for (int i = 0; i < _playerVertices.Length; i++)
+            {
+                _playerVertices[i] += number;
+            }
         }
 
         private void MainWindow_RenderFrame(object sender, FrameEventArgs e)
         {
+            GL.Clear(ClearBufferMask.ColorBufferBit | ClearBufferMask.DepthBufferBit);
+            
             _shader.Use();
-
-            GL.BindVertexArray(_vertexArrayObject);
-            GL.DrawArrays(PrimitiveType.Triangles, 0, 3);
+            GL.DrawArrays(PrimitiveType.Triangles, 0, 6);
             SwapBuffers();
         }
 
