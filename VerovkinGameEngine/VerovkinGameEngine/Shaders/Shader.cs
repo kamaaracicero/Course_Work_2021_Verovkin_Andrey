@@ -45,7 +45,11 @@ namespace VerovkinGameEngine
 
             GL.AttachShader(Handle, VertexShader);
             GL.AttachShader(Handle, FragmentShader);
-
+            /*
+            GL.BindFragDataLocation(Handle, 0, "FragColor");
+            GL.BindAttribLocation(Handle, 0, "position");
+            GL.BindAttribLocation(Handle, 1, "color");
+            */
             GL.LinkProgram(Handle);
 
             GL.DetachShader(Handle, VertexShader);

@@ -14,8 +14,9 @@ namespace VerovkinGameEngine
         [STAThread]
         static void Main()
         {
-            MainWindow window = new MainWindow(800, 600, "CourseWork");
+            MainWindow window = new MainWindow(1000, 1000, "CourseWork", "D:\\Git Projects\\Course_Work_2021_Spring\\Pictures\\map1.bmp");
             window.Run(60.0);
+
         }
     }
 }

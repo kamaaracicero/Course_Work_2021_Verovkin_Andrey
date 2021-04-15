@@ -8,11 +8,11 @@ namespace TreasureGameLib
 {
     public class Position
     {
-        float X { get; set; }
+        public float X { get; set; }
 
-        float Y { get; set; }
+        public float Y { get; set; }
 
-        float Z { get; set; }
+        public float Z { get; set; }
 
         public Position(float x, float y, float z)
         {

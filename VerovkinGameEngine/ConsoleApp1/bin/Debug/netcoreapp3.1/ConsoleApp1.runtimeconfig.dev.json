@@ -1,8 +1,0 @@
-{
-  "runtimeOptions": {
-    "additionalProbingPaths": [
-      "C:\\Users\\verov\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\verov\\.nuget\\packages"
-    ]
-  }
-}

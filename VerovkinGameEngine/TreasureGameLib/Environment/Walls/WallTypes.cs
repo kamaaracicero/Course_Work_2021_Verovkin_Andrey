@@ -5,9 +5,9 @@
     /// </summary>
     public enum  WallTypes
     {
-        Empty = 0,
-        Common = 1,
-        Destructible = 2,
-        Improved = 3
+        Empty,
+        Common,
+        Destructible,
+        Improved
     };
 }
